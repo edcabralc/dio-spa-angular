@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  /* background-color: #673ab7; */
+  color: white;
+}
+
+.toolbar {
+  flex: 1 1 auto;
+  justify-content: space-between;
+  /*background-color: #5f27cd;*/
+  background-color: #530082;
+}
+
+mat-toolbar nav a {
+  margin: 12px 21px;
+  padding: 21px;
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}

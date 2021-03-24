@@ -1,0 +1,17 @@
+.img {
+  background: #530082;
+  background-image: url("https://cdn.pixabay.com/photo/2016/08/17/07/01/family-1599825_960_720.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card-tittle {
+  max-width: 700px;
+}
+
+.tittle {
+  font-size: 2.5rem;
+  color: black;
+  word-wrap: break-word;
+  line-height: 2.5rem;
+}
